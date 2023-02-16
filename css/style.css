@@ -48,13 +48,33 @@ main{
 
 /* test */
 .my-main-top{
-    height: 100px;
+    height: 90px;
 
     border: 1px solid black;
+}
+
+.my-main-top-left{
+    width: 40%;
+}
+
+.my-main-top-center{
+    width: 30%;
+}
+
+.my-main-top-right{
+    width: 30%;
 }
 /* /test */
 
 .my-breadcrumb{
+    font-size: 12px;
+}
+
+.my-container-img-table{
+    width: 25px;
+}
+
+.my-table{
     font-size: 12px;
 }
 /* media query */

@@ -73,7 +73,7 @@
          <main>
             <div class="my-main-top">
                 <div class="container-fluid d-flex justify-content-between my-container-main-top">
-                   <div class="mt-2 flex-grow-1">
+                   <div class="my-main-top-left mt-2">
                      <div class="py-1">Boolean <span class="border rounded-pill px-1">Piano blaze</span></div>
                      <div style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb" class="py-1">
                         <ol class="breadcrumb text-white my-breadcrumb">
@@ -85,12 +85,12 @@
                      </div>
                    </div>
 
-                   <div class="container-fluid text-center">
+                   <div class="my-main-top-center container-fluid">
                      <div>Studenti online negli ultimi 30 minuti</div>
                      <div class="fs-3">125</div>
                    </div>
 
-                   <div class="flex-grow-1">
+                   <div class="my-main-top-right text-end me-3">
                      <div>Nuovo Studente</div>
                      <span class="border">+</span>
                    </div>
@@ -100,36 +100,141 @@
             <div class="my-main-bottom">
                 <div class="container-fluid"> 
                     <div class="col-6">
-                        <div class="container-fluid">
-                            <table class="table">
+                        <div class="border">
+                            <div>Prossime classi</div>
+                            <table class="table border my-table">
                                 <thead>
                                   <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">Nome</th>
+                                    <th scope="col">Data inizio</th>
+                                    <th scope="col">ROI</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                        <div class="my-container-img-table">
+                                            <img src="img/class-avatar.jpg" class="img-fluid" alt="avatar">
+                                        </div>
+                                        <span>75</span>
+                                    </th>
+                                    <td>15 Febbraio 2021</td>
+                                    <td>20%</td>
+                                    <td><div class="badge text-bg-success">Done</div></td>
+                                    <td>
+                                        <span><i class="fa-solid fa-pen border p-1"></i></span>
+                                        <span><i class="fa-solid fa-trash border p-1"></i></span>
+                                    </td>
                                   </tr>
                                 </tbody>
-                              </table>
+                            </table>
                         </div>
                         <div></div>
                     </div>
